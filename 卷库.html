@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>卷库</title>
+    <!--框架样式-->
+    <!--sass自动生成的css-->
+    <link type="text/css" rel="stylesheet" href="static/css/common.css">
+    <!--/框架样式-->
+
+    <!--研发自定义样式写入此样式表-->
+    <link type="text/css" rel="stylesheet" href="static/fonts/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="static/css/custom.css">
+    <!--/研发自定义样式写入此样式表-->
+</head>
+<body>
+<!--头部区域-->
+<div class="header">
+    <div class="wrap">
+        <img class="logo fl" src="static/images/logo.png" alt="">
+        <ul class="nav">
+            <li><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">应用商店</a></li>
+            <li><a href="javascript:;">开发者平台</a></li>
+            <li><a href="javascript:;">关于我们</a></li>
+        </ul>
+
+        <ul class="user fr">
+            <li><i class="iconfont icon-zhanghutouxiang"></i><span>admin</span><i class="iconfont icon-xiala ml10"></i></li>
+        </ul>
+
+    </div>
+</div>
+<!--头部区域end-->
+<!--搜索区域-->
+<div class="district-search">
+    <div class="wrap">
+        <label class="title"><i class="iconfont icon-ziyuanzhongxinlogo mr10"></i>资源中心</label>
+        <div class="search">
+            <input type="text" value="" placeholder="请输入关键词，如“三角形”" class="search-input">
+            <i class="iconfont icon-yuyin"></i>
+            <button type="button" class="fr">搜索</button>
+        </div>
+        <p class="hot-word">热门搜索：<span class="ml10 mr10">设计</span><span class="ml10 mr10">商的近似数</span><span
+                class="ml10 mr10">三角函数</span></p>
+    </div>
+</div>
+<!--搜索区域end-->
+
+<!--菜单区域-->
+<div class="menu-bg">
+    <ul class="menu wrap clearfix" id="menu">
+        <li><a href="javascript:;" class="ellipsis active">资源首页</a></li>
+        <li><a href="javascript:;" class="ellipsis">同步资源</a></li>
+        <li><a href="javascript:;" class="ellipsis">题库</a></li>
+        <li><a href="javascript:;" class="ellipsis">精品微课</a></li>
+        <li><a href="javascript:;" class="ellipsis">卷库</a></li>
+        <li><a href="javascript:;" class="ellipsis">中考</a></li>
+        <li><a href="javascript:;" class="ellipsis">高考</a></li>
+        <li><a href="javascript:;" class="ellipsis">汉子笔顺库</a></li>
+        <li><a href="javascript:;" class="ellipsis">多媒体素材</a></li>
+        <li><a href="javascript:;" class="ellipsis">幼教</a></li>
+        <li><a href="javascript:;" class="ellipsis">虚拟实验室</a></li>
+        <span class="more"><em>更多</em><i class="iconfont icon-zhankai"></i></span>
+    </ul>
+</div>
+<!--菜单区域end-->
+<!--筛选-->
+<div class="wrap resource">
+    <div class="select-hint">
+       <label class="fl">您已选择：</label><p class="select-con"><a href="javascript:;">小学</a>&gt;<a href="javascript:;">语文</a>&gt;<a href="javascript:;">人教版</a>&gt;<a href="javascript:;">语文人教版一年级上册</a></p>
+    </div>
+    <div class="content clearfix" id="filtrate">
+        <div class="item">
+            <label class="fl">年级：</label>
+            <div class="message"><a href="javascript:;" class="active">七年级</a><a href="javascript:;">八年级</a><a href="javascript:;">九年级</a></div>
+        </div>
+        <div class="item">
+            <label class="fl">学科：</label>
+            <div class="message"><a href="javascript:;" class="active">语文</a><a href="javascript:;">数学</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a></div>
+        </div>
+        <div class="item">
+            <label class="fl">类型：</label>
+            <div class="message">
+                <a href="javascript:;" class="active">试卷配套听力</a>
+                <a href="javascript:;">开学考试</a>
+                <a href="javascript:;">周考</a>
+                <a href="javascript:;">月考</a>
+                <a href="javascript:;">期中考试</a>
+                <a href="javascript:;">期末考试</a>
+                <a href="javascript:;">联考</a>
+                <a href="javascript:;">模拟考试</a>
+                <a href="javascript:;">真题</a>
+            </div>
+        </div>
+        <div class="item">
+                <label class="fl">年份：</label>
+                <div class="message">
+                    <a href="javascript:;" class="active">全部</a>
+                    <a href="javascript:;">2018</a>
+                    <a href="javascript:;">2017</a>
+                    <a href="javascript:;">2016</a>
+                    <a href="javascript:;">2015</a>
+                    <a href="javascript:;">2014</a>
+                    <a href="javascript:;">2013</a>
+                    <a href="javascript:;">2012</a>
+                    <a href="javascript:;">2011</a>
+                </div>
+            </div>
+        <div class="item">
+            <label  class="fl">地区：</label>
+            <div class="message">
+                    <a href="javascript:;" class="active">全部</a>
+                    <a href="javascript:;">北京</a>
+                    <a href="javascript:;">上海</a>
+                    <a href="javascript:;">天津</a>
+                    <a href="javascript:;">河北省</a>
+                    <a href="javascript:;">安徽省</a>
+                    <a href="javascript:;">广东省</a>
+                    <a href="javascript:;">山东省</a>
+                    <a href="javascript:;">重庆市</a>
+                    <a href="javascript:;">甘肃省</a>
+                    <a href="javascript:;">江苏省</a>
+                    <a href="javascript:;">湖北省</a>
+                    <a href="javascript:;">山西省</a>
+                    <a href="javascript:;">浙江省</a>
+                    <a href="javascript:;">辽宁省</a>
+                <span class="more"><em>更多</em><i class="iconfont icon-zhankai"></i></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--筛选1end-->
+<!--内容-->
+<div class="resource-con wrap mt20 clearfix">
+    <div class="fl p20 w958">
+        <!-- 排序 -->
+        <div class="select clearfix" id="resList">
+            <div class="item fl">
+                <label>资源格式：</label>
+                <span class="size-input">
+                    <em class="size">全部</em><i class="iconfont icon-zhankai"></i>
+                    <ul class="list-children">
+                        <li class="active">全部</li>
+                        <li>文档</li>
+                        <li>图片</li>
+                        <li>音频</li>
+                        <li>视频</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="item fl">
+                <label>排序：</label>
+                <span class="size-input">
+                    <em class="size">默认</em><i class="iconfont icon-zhankai"></i>
+                    <ul class="list-children">
+                        <li class="active">倒序</li>
+                        <li>正序</li>
+                    </ul>
+                </span>
+    
+            </div>
+            <div class="item fl">
+                <label>等级：</label>
+                <span class="size-input">
+                    <em class="size">全部</em><i class="iconfont icon-zhankai"></i>
+                    <ul class="list-children">
+                        <li class="active">全部</li>
+                        <li>一级</li>
+                        <li>二级</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="item fl">
+                <label>来源：</label>
+                <span class="size-input">
+                    <em class="size">全站</em><i class="iconfont icon-zhankai"></i>
+                    <ul class="list-children">
+                        <li class="active">全站</li>
+                        <li>微博</li>
+                        <li>QQ</li>
+                        <li>微信</li>
+                        <li>视频</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="search-small fr mt5">
+                <input type="text" value="" placeholder="" class="search-input">
+                <button type="button" class="fr">搜索</button>
+            </div>
+        </div>
+        <!-- end -->
+    </div>
+    <div class="fr w240 icon-ul-list p20">asdf</div>
+</div>
+<!-- 内容 end -->
+<!-- footer -->
+<div class="footer wrap">
+    <span>科大讯飞股份有限公司</span><span>Copyright © 科大讯飞</span><span>皖ICP备05001217号-48.All Rights Reserved</span>
+</div>
+<!--底部end-->
+
+<!--jquery-->
+<script src="static/plugin/jquery/jquery-1.9.1.min.js"></script>
+<!--自写js文件-->
+<script src="static/js/common.js"></script>
+</body>
+</html>

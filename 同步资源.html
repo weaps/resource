@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>同步资源</title>
+
+    <!--框架样式-->
+    <!--sass自动生成的css-->
+    <link type="text/css" rel="stylesheet" href="static/css/common.css">
+    <!--/框架样式-->
+
+    <!--研发自定义样式写入此样式表-->
+    <link type="text/css" rel="stylesheet" href="static/fonts/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="static/css/custom.css">
+    <!--/研发自定义样式写入此样式表-->
+</head>
+
+<body>
+<!--头部区域-->
+<div class="header">
+    <div class="wrap">
+        <img class="logo fl" src="static/images/logo.png" alt="">
+        <ul class="nav">
+            <li><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">应用商店</a></li>
+            <li><a href="javascript:;">开发者平台</a></li>
+            <li><a href="javascript:;">关于我们</a></li>
+        </ul>
+
+        <ul class="user fr">
+            <li><i class="iconfont icon-zhanghutouxiang"></i><span>admin</span><i class="iconfont icon-xiala ml10"></i></li>
+        </ul>
+
+    </div>
+</div>
+<!--头部区域end-->
+<!--搜索区域-->
+<div class="district-search">
+    <div class="wrap">
+        <label class="title"><i class="iconfont icon-ziyuanzhongxinlogo mr10"></i>资源中心</label>
+        <div class="search">
+            <input type="text" value="" placeholder="请输入关键词，如“三角形”" class="search-input">
+            <i class="iconfont icon-yuyin"></i>
+            <button type="button" class="fr">搜索</button>
+        </div>
+        <p class="hot-word">热门搜索：<span class="ml10 mr10">设计</span><span class="ml10 mr10">商的近似数</span><span
+                class="ml10 mr10">三角函数</span></p>
+    </div>
+</div>
+<!--搜索区域end-->
+
+<!--菜单区域-->
+<div class="menu-bg">
+    <ul class="menu wrap clearfix" id="menu">
+        <li><a href="javascript:;" class="ellipsis active">资源首页</a></li>
+        <li><a href="javascript:;" class="ellipsis">同步资源</a></li>
+        <li><a href="javascript:;" class="ellipsis">题库</a></li>
+        <li><a href="javascript:;" class="ellipsis">精品微课</a></li>
+        <li><a href="javascript:;" class="ellipsis">卷库</a></li>
+        <li><a href="javascript:;" class="ellipsis">中考</a></li>
+        <li><a href="javascript:;" class="ellipsis">高考</a></li>
+        <li><a href="javascript:;" class="ellipsis">汉子笔顺库</a></li>
+        <li><a href="javascript:;" class="ellipsis">多媒体素材</a></li>
+        <li><a href="javascript:;" class="ellipsis">幼教</a></li>
+        <li><a href="javascript:;" class="ellipsis">虚拟实验室</a></li>
+        <span class="more"><em>更多</em><i class="iconfont icon-zhankai"></i></span>
+    </ul>
+</div>
+<!--菜单区域end-->
+
+<!--筛选-->
+<div class="wrap resource">
+    <div class="select-hint">
+       <label class="fl">您已选择：</label><p class="select-con"><a href="javascript:;">小学</a>&gt;<a href="javascript:;">语文</a>&gt;<a href="javascript:;">人教版</a>&gt;<a href="javascript:;">语文人教版一年级上册</a></p>
+    </div>
+    <div class="content clearfix" id="filtrate">
+        <div class="item">
+            <label class="fl">学段：</label>
+            <div class="message"><a href="javascript:;" class="active">小学</a><a href="javascript:;">初中</a><a href="javascript:;">高中</a></div>
+        </div>
+        <div class="item">
+            <label class="fl">学科：</label>
+            <div class="message"><a href="javascript:;" class="active">语文</a><a href="javascript:;">数学</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a><a href="javascript:;">英语</a></div>
+        </div>
+        <div class="item">
+            <label class="fl">版本：</label>
+            <div class="message"><a href="javascript:;" class="active">人教版</a></div>
+        </div>
+        <div class="item">
+            <label  class="fl">教材：</label>
+            <div class="message"><a href="javascript:;" class="active">语文人教一年级上册（2016年新编）</a><a href="javascript:;">语文人教一年级上册（2016年新编）</a><a href="javascript:;">语文人教一年级上册（2016年新编）</a><a href="javascript:;">语文人教一年级上册（2016年新编）</a><a href="javascript:;">语文人教一年级上册（2016年新编）</a><a href="javascript:;">语文人教一年级上册（2016年新编）</a><span class="more"><em>更多</em><i class="iconfont icon-zhankai"></i></span></div>
+        </div>
+    </div>
+</div>
+<!--筛选1end-->
+
+<!--内容-->
+<div class="resource-con wrap mt20 clearfix">
+   <div class="left-con fl">
+       <p class="tab">
+           <a href="javascript:;" class="active">按教材目录</a>
+           <a href="javascript:;">按知识点</a>
+       </p>
+       <div class="tree-con">
+           <img src="static/images/delete/1.png" style="width: 100%">
+       </div>
+   </div>
+   <div class="center-con fl">
+       <div class="top-tab clearfix">
+           <div class="list clearfix fl">
+               <a href="javascript:;">全部</a>
+               <a href="javascript:;">教学设计</a>
+               <a href="javascript:;">课件</a>
+               <a href="javascript:;">素材</a>
+               <a href="javascript:;">习题</a>
+               <a href="javascript:;">微课</a>
+               <span class="more more-down">
+                   <em>更多</em><i class="iconfont icon-zhankai"></i>
+                   <ul class="list-children">
+                       <li class="active">交互式课件</li>
+                       <li>试验</li>
+                       <li>数学教材</li>
+                       <li>课堂实录</li>
+                       <li>试卷</li>
+                       <li>其他</li>
+                   </ul>
+               </span>
+           </div>
+           <div class="search-small fr">
+               <input type="text" value="" placeholder="" class="search-input">
+               <button type="button" class="fr">搜索</button>
+           </div>
+       </div>
+       <div class="select mt10 clearfix" id="resList">
+           <div class="item fl">
+               <label>资源格式：</label>
+               <span class="size-input">
+                   <em class="size">全部</em><i class="iconfont icon-zhankai"></i>
+                   <ul class="list-children">
+                       <li class="active">全部</li>
+                       <li>文档</li>
+                       <li>图片</li>
+                       <li>音频</li>
+                       <li>视频</li>
+                   </ul>
+               </span>
+           </div>
+           <div class="item fl">
+               <label>排序：</label>
+               <span class="size-input">
+                   <em class="size">默认</em><i class="iconfont icon-zhankai"></i>
+                   <ul class="list-children">
+                       <li class="active">倒序</li>
+                       <li>正序</li>
+                   </ul>
+               </span>
+
+           </div>
+           <div class="item fl">
+               <label>等级：</label>
+               <span class="size-input">
+                   <em class="size">全部</em><i class="iconfont icon-zhankai"></i>
+                   <ul class="list-children">
+                       <li class="active">全部</li>
+                       <li>一级</li>
+                       <li>二级</li>
+                   </ul>
+               </span>
+           </div>
+           <div class="item fl">
+               <label>来源：</label>
+               <span class="size-input">
+                   <em class="size">全站</em><i class="iconfont icon-zhankai"></i>
+                   <ul class="list-children">
+                       <li class="active">全站</li>
+                       <li>微博</li>
+                       <li>QQ</li>
+                       <li>微信</li>
+                       <li>视频</li>
+                   </ul>
+               </span>
+           </div>
+       </div>
+
+       <div class="content">
+           <div class="item">
+               <img src="static/images/ceshi.png" alt="" class="img mr10 fl">
+               <div class="title">
+                   <div class="left"><a href="javascript:;"><i class="iconfont icon-yinpingeshi color-green"></i><em class="ellipsis">《角的初步认识》课件4.ppt</em></a></div>
+                   <div class="right">
+                       <span class="star">
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star active"></i>
+                       </span>
+                       <span class="star-num">2.7</span>
+                       <span class="num">(3)</span>
+                       <i class="iconfont icon-erweima"></i>
+                   </div>
+               </div>
+               <p class="hint">内容简介：<span class="hint-con ellipsis">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></p>
+               <p class="name">贡献者：乌恰教师</p>
+               <p class="message"><span>大小：7.56MB</span> | <span>浏览量：3</span> | <span>下载：24</span><span class="fr">2018-11-08</span></p>
+           </div>
+           <div class="item">
+               <img src="static/images/ceshi.png" alt="" class="img mr10 fl">
+               <div class="title">
+                   <div class="left"><a href="javascript:;"><i class="iconfont icon-yinpingeshi color-green"></i><em class="ellipsis">《角的初步认识》课件4.ppt</em></a></div>
+                   <div class="right">
+                       <span class="star">
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                       </span>
+                       <span class="star-num">2.7</span>
+                       <span class="num">(3)</span>
+                       <i class="iconfont icon-erweima"></i>
+                   </div>
+               </div>
+               <p class="hint">内容简介：<span class="hint-con ellipsis">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></p>
+               <p class="name">贡献者：乌恰教师</p>
+               <p class="message"><span>大小：7.56MB</span> | <span>浏览量：3</span> | <span>下载：24</span><span class="fr">2018-11-08</span></p>
+           </div>
+           <div class="item">
+               <img src="static/images/ceshi.png" alt="" class="img mr10 fl">
+               <div class="title">
+                   <div class="left"><a href="javascript:;"><i class="iconfont icon-yinpingeshi color-green"></i><em class="ellipsis">《角的初步认识》课件4.ppt</em></a></div>
+                   <div class="right">
+                       <span class="star">
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                       </span>
+                       <span class="star-num">2.7</span>
+                       <span class="num">(3)</span>
+                       <i class="iconfont icon-erweima"></i>
+                   </div>
+               </div>
+               <p class="hint">内容简介：<span class="hint-con ellipsis">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></p>
+               <p class="name">贡献者：乌恰教师</p>
+               <p class="message"><span>大小：7.56MB</span> | <span>浏览量：3</span> | <span>下载：24</span><span class="fr">2018-11-08</span></p>
+           </div>
+           <div class="item">
+               <img src="static/images/ceshi.png" alt="" class="img mr10 fl">
+               <div class="title">
+                   <div class="left"><a href="javascript:;"><i class="iconfont icon-yinpingeshi color-green"></i><em class="ellipsis">《角的初步认识》课件4.ppt</em></a></div>
+                   <div class="right">
+                       <span class="star">
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                       </span>
+                       <span class="star-num">2.7</span>
+                       <span class="num">(3)</span>
+                       <i class="iconfont icon-erweima"></i>
+                   </div>
+               </div>
+               <p class="hint">内容简介：<span class="hint-con ellipsis">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></p>
+               <p class="name">贡献者：乌恰教师</p>
+               <p class="message"><span>大小：7.56MB</span> | <span>浏览量：3</span> | <span>下载：24</span><span class="fr">2018-11-08</span></p>
+           </div>
+           <div class="item">
+               <img src="static/images/ceshi.png" alt="" class="img mr10 fl">
+               <div class="title">
+                   <div class="left"><a href="javascript:;"><i class="iconfont icon-yinpingeshi color-green"></i><em class="ellipsis">《角的初步认识》课件4.ppt</em></a></div>
+                   <div class="right">
+                       <span class="star">
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                       </span>
+                       <span class="star-num">2.7</span>
+                       <span class="num">(3)</span>
+                       <i class="iconfont icon-erweima"></i>
+                   </div>
+               </div>
+               <p class="hint">内容简介：<span class="hint-con ellipsis">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></p>
+               <p class="name">贡献者：乌恰教师</p>
+               <p class="message"><span>大小：7.56MB</span> | <span>浏览量：3</span> | <span>下载：24</span><span class="fr">2018-11-08</span></p>
+           </div>
+           <div class="item">
+               <img src="static/images/ceshi.png" alt="" class="img mr10 fl">
+               <div class="title">
+                   <div class="left"><a href="javascript:;"><i class="iconfont icon-yinpingeshi color-green"></i><em class="ellipsis">《角的初步认识》课件4.ppt</em></a></div>
+                   <div class="right">
+                       <span class="star">
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star active"></i>
+                           <i class="iconfont icon-star"></i>
+                           <i class="iconfont icon-star"></i>
+                       </span>
+                       <span class="star-num">2.7</span>
+                       <span class="num">(3)</span>
+                       <i class="iconfont icon-erweima"></i>
+                   </div>
+               </div>
+               <p class="hint">内容简介：<span class="hint-con ellipsis">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></p>
+               <p class="name">贡献者：乌恰教师</p>
+               <p class="message"><span>大小：7.56MB</span> | <span>浏览量：3</span> | <span>下载：24</span><span class="fr">2018-11-08</span></p>
+           </div>
+           <div class="page tc mt20">
+               <a class="prev"><i class="iconfont icon-arrows-left"></i></a>
+               <a class="active">1</a>
+               <a>2</a>
+               <a>3</a>
+               <a>...</a>
+               <a>9</a>
+               <a>10</a>
+               <a class="next"><i class="iconfont icon-arrows-right"></i></a>
+           </div>
+       </div>
+   </div>
+   <div class="right-con fl">
+      <div class="top-con">
+        <h4 class="tc">资源中心</h4>
+        <h5 class="tc">已有<em>436335</em>份文档</h5>
+        <button type="button" class="btn btn-orange"><i class="iconfont icon-shangchuan"></i>上传我的资源</button>
+      </div>
+       <p class="title">资源推荐</p>
+       <ul class="list">
+           <li><a href="javascript:;"><i class="iconfont icon-diyiming"></i><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><i class="iconfont icon-dierming"></i><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><i class="iconfont icon-disanming"></i><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">4</em><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">5</em><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">6</em><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">7</em><span class="ellipsis">《我的名族小学》</span></a></li>
+       </ul>
+       <p class="title">资源排名</p>
+       <ul class="list">
+           <li><a href="javascript:;"><i class="iconfont icon-diyiming"></i><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><i class="iconfont icon-dierming"></i><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><i class="iconfont icon-disanming"></i><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">4</em><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">5</em><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">6</em><span class="ellipsis">《我的名族小学》</span></a></li>
+           <li><a href="javascript:;"><em class="">7</em><span class="ellipsis">《我的名族小学》</span></a></li>
+       </ul>
+   </div>
+</div>
+<!--内容end-->
+
+<!--底部-->
+<div class="footer wrap">
+    <span>科大讯飞股份有限公司</span><span>Copyright © 科大讯飞</span><span>皖ICP备05001217号-48.All Rights Reserved</span>
+</div>
+<!--底部end-->
+
+<!--jquery-->
+<script src="static/plugin/jquery/jquery-1.9.1.min.js"></script>
+<!--自写js文件-->
+<script src="static/js/common.js"></script>
+
+</body>
+</html>
