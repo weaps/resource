@@ -16,12 +16,109 @@
   margin-top: 5px;
 }
 
-.icon-ul-list {
+.border-t {
+  border-top: 1px solid #e8ecf0;
+}
+
+.border-r {
+  border-right: 1px solid #e8ecf0;
+}
+
+.border-b {
+  border-bottom: 1px solid #e8ecf0;
+}
+
+.border-l {
   border-left: 1px solid #e8ecf0;
 }
 
-.img-ul-list {
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  -webkit-box-flex: 1;
+  height: inherit;
+}
+
+.icon-ul-list {
   width: 100%;
+}
+
+.icon-ul-list .sub-title {
+  position: relative;
+  padding-bottom: 10px;
+  color: #228cf9;
+  font-weight: 700;
+}
+
+.icon-ul-list .sub-title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 3px;
+  background: #228cf9;
+}
+
+.icon-ul-list ul li {
+  position: relative;
+  padding: 15px 0 15px 40px;
+  border-bottom: 1px dotted #e8ecf0;
+}
+
+.icon-ul-list ul li:first-child .iconfont {
+  color: #ffae00;
+}
+
+.icon-ul-list ul li:nth-child(2) .iconfont {
+  color: #cbd0d2;
+}
+
+.icon-ul-list ul li:nth-child(3) .iconfont {
+  color: #e2b695;
+}
+
+.icon-ul-list ul li .name {
+  display: block;
+  line-height: 28px;
+}
+
+.icon-ul-list ul li .name:hover {
+  color: #228cf9;
+}
+
+.icon-ul-list ul li .iconfont {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  font-size: 25px;
+}
+
+.icon-ul-list ul li em {
+  position: absolute;
+  left: 2px;
+  top: 19px;
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #e8ecf0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.icon-ul-list ul li .info {
+  font-size: 0;
+  color: #B0B3B6;
+}
+
+.icon-ul-list ul li .info span {
+  display: inline-block;
+  width: 50%;
+  font-size: 12px;
 }
 
 .select {
